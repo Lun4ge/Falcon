@@ -101,6 +101,7 @@ class LocaisController extends Controller
             'nomelocal'=>$data['nomelocal'],
             'emaillocal'=>$data['emaillocal'],
             'telelocal'=>$data['telelocal'],
+            'tipolocal'=>$data['type'],
             'descrilocal'=>$data['descrilocal'],
             'Latitude'=>$data['lat'],
             'Longitude'=>$data['lng'],
@@ -110,6 +111,7 @@ class LocaisController extends Controller
                     'nomelocal'=>$data['nomelocal'],
                     'emaillocal'=>$data['emaillocal'],
                     'telelocal'=>$data['telelocal'],
+                    'tipolocal'=>$data['type'],
                     'descrilocal'=>$data['descrilocal'],
                     'Latitude'=>$data['lat'],
                     'Longitude'=>$data['lng'],]);  
