@@ -94,7 +94,7 @@ window.onscroll = function() {
           @endswitch
         </td>
         <td><div style="margin-left: 3%;vertical-align: baseline;">{{$local->nomelocal}}</div></td>
-        <td><button onclick="getElementById('id'+{{$local->id}}).style.width = '30%'" class="buttonformap" href="javascript:void(0)"><i class="fas fa-map-marker"></i></button></td>
+        <td><button onclick="menumarker({{$local->id}})" class="buttonformap" href="javascript:void(0)"><i class="fas fa-map-marker"></i></button></td>
         @foreach ($local->items as $item)
            <td style="visibility: hidden;font-size: 0.01%;">{{$item->nomeitem}}</td>
         @endforeach

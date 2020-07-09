@@ -24,12 +24,12 @@
 
 #map{
     position: absolute;
-    height: 85%;
+    height: 80%;
     width: 100%;
     z-index: -1;
     left: 0px;
     top: 0px;
-    border-radius: 0px 0px 40px;
+    /* border-radius: 0px 0px 40px; */
 }
 
 a[href^="http://maps.google.com/maps"],

@@ -139,7 +139,13 @@ function initMap() {
       }
       document.getElementById("id"+arrayLocaisId[i]).style.width = "30%";
     }
- })(marker, i));
-}
-}
+ })(marker, i));}}
+
+ function menumarker($id){
+  var arrayLocaisId = <?php echo json_encode($arrayLocaisId); ?>;
+
+  for(let ia = 0; ia < arrayLocaisId.length; ia++){
+        document.getElementById("id"+arrayLocaisId[ia]).style.width = "0%";}
+      document.getElementById("id"+$id).style.width = "30%";}
+
 </script>
